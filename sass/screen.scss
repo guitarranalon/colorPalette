@@ -1,0 +1,119 @@
+/*
+	Ejemplo sencillo de aplicacion para SASS utilizando COMPASS
+	CC - Guitarranalon
+	26-10-2011
+ */
+
+@import "compass/css3";
+
+body{background:#fff;}
+ul li{
+	list-style:none;
+	height:30px;
+	width:120px;
+	background:red;
+	font-size:14px;
+	text-align:center;
+}
+
+ul li:hover{
+	@include transform(scale(1.2));
+	@include box-shadow(0 0 4px rgba(0,0,0,.5));
+}
+
+/* *********************************** */
+$colorOriginal:#ffd500;
+/* *********************************** */
+
+.colorOriginal{
+	border:1px solid #333;
+	background:$colorOriginal;
+	width:118px;
+}
+
+.colorOriginal10{
+	background:mix($colorOriginal,#fff,90%);
+}
+
+.colorOriginal20{
+	background:mix($colorOriginal,#fff,80%);
+}
+
+.colorOriginal30{
+	background:mix($colorOriginal,#fff,70%);
+}
+
+.colorOriginal40{
+	background:mix($colorOriginal,#fff,60%);
+}
+
+.colorOriginal50{
+	background:mix($colorOriginal,#fff,50%);
+}
+
+.colorOriginal60{
+	background:mix($colorOriginal,#fff,40%);
+}
+
+.colorOriginal70{
+	background:mix($colorOriginal,#fff,30%);
+}
+
+.colorOriginal80{
+	background:mix($colorOriginal,#fff,20%);
+}
+
+.colorOriginal90{
+	background:mix($colorOriginal,#fff,10%);
+}
+
+.colorOriginal100{
+	background:#fff;
+}
+
+/* hacia negros */
+
+.colorOriginal-10{
+	background:mix($colorOriginal,#000,90%);
+}
+
+.colorOriginal-20{
+	background:mix($colorOriginal,#000,80%);
+}
+
+.colorOriginal-30{
+	background:mix($colorOriginal,#000,70%);
+}
+
+.colorOriginal-40{
+	background:mix($colorOriginal,#000,60%);
+}
+
+.colorOriginal-50{
+	background:mix($colorOriginal,#000,50%);
+}
+
+.colorOriginal-60{
+	background:mix($colorOriginal,#000,40%);
+}
+
+.colorOriginal-70{
+	background:mix($colorOriginal,#000,30%);
+	color:#fff;	
+}
+
+.colorOriginal-80{
+	background:mix($colorOriginal,#000,20%);
+	color:#fff;	
+}
+
+.colorOriginal-90{
+	background:mix($colorOriginal,#000,10%);
+	color:#fff;
+}
+
+.colorOriginal-100{
+	background:#000;
+	color:#fff;
+}
+

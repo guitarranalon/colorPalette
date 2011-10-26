@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<style>
+		</style>
+		<link href="stylesheets/screen.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+	</head>
+	<body>
+		<ul>
+		    <li class="colorOriginal100"></li>
+		    <li class="colorOriginal90"></li>
+		    <li class="colorOriginal80"></li>
+		    <li class="colorOriginal70"></li>
+		    <li class="colorOriginal60"></li>
+		    <li class="colorOriginal50"></li>
+			<li class="colorOriginal40"></li>
+			<li class="colorOriginal30"></li>
+			<li class="colorOriginal20"></li>
+			<li class="colorOriginal10"></li>
+			
+			<li class="colorOriginal"></li>
+			
+			<li class="colorOriginal-10"></li>
+			<li class="colorOriginal-20"></li>
+			<li class="colorOriginal-30"></li>
+			<li class="colorOriginal-40"></li>			
+		    <li class="colorOriginal-50"></li>
+			<li class="colorOriginal-60"></li>
+		    <li class="colorOriginal-70"></li>			
+		    <li class="colorOriginal-80"></li>			
+		    <li class="colorOriginal-90"></li>			
+			<li class="colorOriginal-100"></li>
+		</ul>
+		<script type="text/javascript">
+		/*http://wowmotty.blogspot.com/2009/06/convert-jquery-rgb-output-to-hex-color.html*/
+			function rgb2hex(rgb){
+				 rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+ 				return "#" +
+  				("0" + parseInt(rgb[1],10).toString(16)).slice(-2) +
+  				("0" + parseInt(rgb[2],10).toString(16)).slice(-2) +
+  				("0" + parseInt(rgb[3],10).toString(16)).slice(-2);
+			}
+		
+			var $lis = $('li');
+			$lis.each(function(){
+				$(this).html(rgb2hex($(this).css('backgroundColor')));
+			});
+		</script>		
+	</body>
+</html>

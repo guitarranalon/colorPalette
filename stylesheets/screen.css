@@ -1,0 +1,141 @@
+/* line 3, ../sass/screen.scss */
+body {
+  background: #fff;
+}
+
+/* line 4, ../sass/screen.scss */
+ul li {
+  list-style: none;
+  height: 30px;
+  width: 120px;
+  background: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* line 13, ../sass/screen.scss */
+ul li:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+/* *********************************** */
+/* *********************************** */
+/* line 22, ../sass/screen.scss */
+.colorOriginal {
+  border: 1px solid #333;
+  background: #ffd500;
+  width: 118px;
+}
+
+/* line 28, ../sass/screen.scss */
+.colorOriginal10 {
+  background: #ffd919;
+}
+
+/* line 32, ../sass/screen.scss */
+.colorOriginal20 {
+  background: #ffdd32;
+}
+
+/* line 36, ../sass/screen.scss */
+.colorOriginal30 {
+  background: #ffe14c;
+}
+
+/* line 40, ../sass/screen.scss */
+.colorOriginal40 {
+  background: #ffe566;
+}
+
+/* line 44, ../sass/screen.scss */
+.colorOriginal50 {
+  background: #ffea7f;
+}
+
+/* line 48, ../sass/screen.scss */
+.colorOriginal60 {
+  background: #ffee99;
+}
+
+/* line 52, ../sass/screen.scss */
+.colorOriginal70 {
+  background: #fff2b2;
+}
+
+/* line 56, ../sass/screen.scss */
+.colorOriginal80 {
+  background: #fff6cc;
+}
+
+/* line 60, ../sass/screen.scss */
+.colorOriginal90 {
+  background: #fffae5;
+}
+
+/* line 64, ../sass/screen.scss */
+.colorOriginal100 {
+  background: #fff;
+}
+
+/* hacia negros */
+/* line 70, ../sass/screen.scss */
+.colorOriginal-10 {
+  background: #e5bf00;
+}
+
+/* line 74, ../sass/screen.scss */
+.colorOriginal-20 {
+  background: #ccaa00;
+}
+
+/* line 78, ../sass/screen.scss */
+.colorOriginal-30 {
+  background: #b29500;
+}
+
+/* line 82, ../sass/screen.scss */
+.colorOriginal-40 {
+  background: #997f00;
+}
+
+/* line 86, ../sass/screen.scss */
+.colorOriginal-50 {
+  background: #7f6a00;
+}
+
+/* line 90, ../sass/screen.scss */
+.colorOriginal-60 {
+  background: #665500;
+}
+
+/* line 94, ../sass/screen.scss */
+.colorOriginal-70 {
+  background: #4c3f00;
+  color: #fff;
+}
+
+/* line 99, ../sass/screen.scss */
+.colorOriginal-80 {
+  background: #332a00;
+  color: #fff;
+}
+
+/* line 104, ../sass/screen.scss */
+.colorOriginal-90 {
+  background: #191500;
+  color: #fff;
+}
+
+/* line 109, ../sass/screen.scss */
+.colorOriginal-100 {
+  background: #000;
+  color: #fff;
+}
